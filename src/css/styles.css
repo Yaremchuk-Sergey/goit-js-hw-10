@@ -40,3 +40,57 @@
   line-height: 150%;
   color: #2e2f42;
 }
+
+/* Snackbar */
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  margin-top: 32px;
+}
+
+.form-delay {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.form-delay input {
+  width: 352px;
+}
+
+fieldset {
+  width: 332px;
+  border-radius: 4px;
+  stroke-width: 1px;
+  stroke: #808080;
+}
+
+legend {
+  display: inline-block;
+  text-align: left;
+}
+
+.radio-group {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 48px;
+}
+
+button[type='submit'] {
+  width: 360px;
+  padding: 8px 16px;
+  border: none;
+  background-color: #4e75ff;
+  color: #fff;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button[type='submit']:hover {
+  background-color: #6c8cff;
+}
